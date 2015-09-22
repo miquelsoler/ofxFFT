@@ -502,7 +502,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.10;
 				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = app;
 			};
@@ -592,7 +592,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.10;
 				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = app;
 			};
