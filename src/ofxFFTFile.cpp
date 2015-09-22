@@ -42,7 +42,7 @@ void ofxFFTFile::startFrameSync(ofSoundPlayer * soundPlayer, int frameRate) {
     }
     
     player = soundPlayer;
-    if(player->isPlaying()) {
+    if(player->getIsPlaying()) {
         player->setPaused(false);
     } else {
         player->play();
